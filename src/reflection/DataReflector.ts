@@ -1,5 +1,5 @@
 import {JSONPath as jsonpath} from '@astronautlabs/jsonpath';
-import {DataReflector, DataReflectorValue} from "@denis_bruns/foundation";
+import {DataReflector, DataReflectorValue} from "@denis_bruns/web-core-ts";
 
 function hasCircular(obj: any): boolean {
     const seen = new WeakSet();
